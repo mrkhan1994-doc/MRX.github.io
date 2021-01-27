@@ -1,0 +1,159 @@
+
+@media (min-width : 768px) and (max-width: 991px) {
+    .navbar-nav{
+        background:#00000094;
+        color: #fff;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .about-content,
+    .process-bar{
+        margin-top: 50px;
+        text-align: center;
+    }
+   
+    .working-process{
+        margin:20px auto;
+        justify-content: center;
+
+    }
+    .servicess-details{
+        padding: 50px 20px;
+    }
+    .servicess-details h3{
+        font-size: 15px;
+        margin: -10px 0px;
+        text-transform: uppercase;
+    }
+
+    .servicess-details a{
+        font-size: 8px;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+   
+    .my-experienc::before{
+        bottom: -30%;
+        left: -29%;
+    }
+    .blog-content {
+        width: 50% ;
+      }
+    .blog-sizer{
+         width: 50%;
+      }
+      
+      .grid-item {
+        width: 50%;
+      }
+      .grid-sizer{
+           width: 50%;
+      }
+      /* .grid-item--width2 { width:50%; } */
+      .grid-item img{
+          width: 100%;
+      }
+
+    }
+
+
+
+
+
+@media (min-width : 480px) and (max-width:767px){
+    .col-sm-12 .about-content{
+        margin-top: 30px;
+    }
+    .navbar-nav{
+        background:#00000094;
+        color: #fff;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .about-content,
+    .process-bar{
+        margin-top: 50px;
+        text-align: center;
+    }
+   
+    .working-process{
+        margin:20px auto;
+        justify-content: center;
+
+    }
+    .servicess-details{
+        padding: 111px 20px;
+    }
+    .servicess-details h3{
+        font-size: 15px;
+        margin: -10px 0px;
+        text-transform: uppercase;
+    }
+
+    .servicess-details a{
+        font-size: 8px;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+   
+    .headding{
+        font-size: 30px !important;
+    }
+    .preheadding{
+        font-size: 8px;
+    }
+    .blog-content{
+        width: 100%;
+       
+    }
+    .grid-item {
+        width: 100%;
+      }
+      .grid-sizer{
+           width: 100%;
+      }
+      /* .grid-item--width2 { width:50%; } */
+      .grid-item img{
+          width: 100%;
+      }
+      .my-experienc::before{
+        bottom: -33%;
+        left: -62%;
+    }
+    .process-bar{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .process-bar h4{
+        font-size: 20px !important;
+    }
+    .button-group button{
+        font-size: 10px ;
+    }
+    footer{
+        text-align: center;
+    }
+    .footer-contact {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sub-text{
+        font-size: 25px !important;
+    }
+    .services-img::after {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .services-img::before {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width : 479px){
+    .my-experienc::before{
+        display: none;
+    }
+}
